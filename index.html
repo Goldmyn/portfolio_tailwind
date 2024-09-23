@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="grid lg:flex bg-slate-900 text-white lg:mt-[5rem] mx-auto">
+    <header class="lg:block lg:fixed left-0 top-0 lg:mt-[4.6rem] mx-5 my-10">
+      <nav class="text-white lg:h-screen lg:ml-[5rem] xl:ml-[7rem]">
+        <h1 class="text-5xl font-bold my-3 text-gray-300">Marius Nwokolo</h1>
+        <h5 class="text-xl font-semibold mb-5 text-gray-300">
+          Software Engineer
+        </h5>
+        <p class="max-w-[300px] font-semibold text-gray-400">
+          I build pixel-perfect engaging and accessible digital experiences
+        </p>
+        <ul class="hidden lg:block lg:mt-20">
+          <li class="mb-3">
+            <a
+              href="#about"
+              class="group flex items-center gap-2 transition-all"
+            >
+              <!-- Horizontal line on the left -->
+              <span
+                class="inline-block w-8 h-[1px] bg-gray-400 group-hover:bg-gray-200 group-hover:w-[60px] transition-all"
+              ></span>
+              <span
+                class="ml-4 transition-all group-hover:ml-6 group-hover:text-gray-200 text-gray-400 font-bold text-sm"
+                >ABOUT</span
+              >
+            </a>
+          </li>
+          <li class="mb-3">
+            <a
+              href="#experience"
+              class="group flex items-center gap-2 transition-all"
+            >
+              <!-- Horizontal line on the left -->
+              <span
+                class="inline-block w-8 h-[1px] bg-gray-400 group-hover:bg-gray-200 group-hover:w-[60px] transition-all"
+              ></span>
+              <span
+                class="ml-4 transition-all group-hover:ml-6 group-hover:text-gray-200 text-gray-400 font-bold text-sm"
+                >EXPERIENCE</span
+              >
+            </a>
+          </li>
+          <li class="mb-3">
+            <a
+              href="#project"
+              class="group flex items-center gap-2 transition-all"
+            >
+              <!-- Horizontal line on the left -->
+              <span
+                class="inline-block w-8 h-[1px] bg-gray-400 group-hover:bg-gray-200 group-hover:w-[60px] transition-all"
+              ></span>
+              <span
+                class="ml-4 transition-all group-hover:ml-6 group-hover:text-gray-200 text-gray-400 font-bold text-sm"
+                >PROJECTS</span
+              >
+            </a>
+          </li>
+        </ul>
+        <ul class="flex gap-4 mt-8 lg:mt-24">
+          <li>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-github text-gray-400"
+              >
+                <path
+                  d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                />
+                <path d="M9 18c-4.51 2-5-2-7-2" /></svg
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-linkedin text-gray-400"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" /></svg
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-codepen text-gray-400"
+              >
+                <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2" />
+                <line x1="12" x2="12" y1="22" y2="15.5" />
+                <polyline points="22 8.5 12 15.5 2 8.5" />
+                <polyline points="2 15.5 12 8.5 22 15.5" />
+                <line x1="12" x2="12" y1="2" y2="8.5" /></svg
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-youtube text-gray-400"
+              >
+                <path
+                  d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"
+                />
+                <path d="m10 15 5-3-5-3z" /></svg
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-facebook text-gray-400"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                /></svg
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-twitter text-gray-400"
+              >
+                <path
+                  d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main
+      class="grid lg:ml-[33rem] lg:mr-[6rem] xl:ml-[42rem] xl:mr-[8.7rem] mx-7"
+    >
+      <section
+        id="about"
+        class="lg:scroll-mt-20 mb-20 lg:px-4 grid gap-4 text-gray-400 font-semibold mt-5 lg:mt-0"
+      >
+        <div
+          class="sticky top-0 z-20 -mx-6 mb-4 bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+        >
+          <h1 class="lg:sr-only text-gray-300 font-bold">ABOUT</h1>
+        </div>
+        <p>
+          Back in 2012, I decided to try my hand at creating custom Tumblr
+          themes and tumbled head first into the rabbit hole of coding and web
+          development. Fast-forward to today, and I've had the privilege of
+          building software for an advertising agency, a start-up, a huge
+          corporation, and a digital product studio.
+        </p>
+        <p>
+          My main focus these days is building accessible user interfaces for
+          our customers at Klaviyo. I most enjoy building software in the sweet
+          spot where design and engineering meet — things that look good but are
+          also built well under the hood. In my free time, I've also released an
+          online video course that covers everything you need to know to build a
+          web app with the Spotify API.
+        </p>
+        <p>
+          When I’m not at the computer, I’m usually rock climbing, reading,
+          hanging out with my wife and two cats, or running around Hyrule
+          searching for Korok seeds.
+        </p>
+      </section>
+
+      <section id="experience" class="scroll-mt-20 mb-20 grid gap-6 lg:gap-3">
+        <div
+          class="sticky top-0 z-20 -mx-6 mb-4 bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+        >
+          <h1 class="lg:sr-only text-gray-300 font-bold">EXPERIENCE</h1>
+        </div>
+
+        <a href="https://eduazn.com/">
+          <div
+            class="group grid md:grid-cols-4 gap-2 md:hover:bg-slate-400/[.06] md:px-4 py-2 rounded-md transition-all"
+          >
+            <p class="transition-all text-gray-400 font-semibold text-sm py-2">
+              2020 - 2024
+            </p>
+            <div class="grid col-span-3 gap-3">
+              <h2
+                class="relative flex flex-wrap items-center gap-1 font-semibold text-lg group-hover:text-teal-400 transition-all"
+              >
+                <span class="flex">Senior FullStack Developer</span>
+                <span
+                  class="inline-block bg-white w-[4px] h-[4px] rounded-full group-hover:bg-teal-400 transition-all"
+                ></span>
+                <span>Eduazn</span>
+                <span class="transition-all">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-30"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </span>
+              </h2>
+              <p class="transition-all text-gray-400 font-bold text-sm">
+                Build and maintain critical components and functions used to
+                construct Eduazn's frontend and backend. Work closely with the
+                CEO to actualize and implement all of the company ideas and
+                advocated for best practices in web accessibility.
+              </p>
+              <ul class="flex flex-wrap gap-2 text-teal-400 transition-all">
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  JavaScript
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Php
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  MySql
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Html/Css
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://stif.netlify.app">
+          <div
+            class="group grid md:grid-cols-4 gap-2 md:hover:bg-indigo-400/[.06] md:px-4 py-2 rounded-md transition-all"
+          >
+            <p class="transition-all text-gray-400 font-semibold text-sm py-2">
+              2022 - 2024
+            </p>
+            <div class="grid col-span-3">
+              <h2
+                class="relative flex flex-wrap items-center gap-1 font-semibold text-lg group-hover:text-teal-400 transition-all"
+              >
+                <span>Senior FullStack Developer</span>
+                <span
+                  class="inline-block bg-white w-[4px] h-[4px] rounded-full group-hover:bg-teal-400 transition-all"
+                ></span>
+                <span>Stif</span>
+                <span class="transition-all">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-30"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </span>
+              </h2>
+              <div class="grid gap-3">
+                <p class="flex flex-col text-gray-400 font-semibold">
+                  <span>Software Engineer</span><span>Engineer</span>
+                </p>
+                <p class="transition-all text-gray-400 font-bold text-sm">
+                  Build and maintain critical components and functions used to
+                  construct Eduazn's frontend and backend. Work closely with the
+                  CEO to actualize and implement all of the company ideas and
+                  advocated for best practices in web accessibility.
+                </p>
+                <ul class="flex flex-wrap gap-2 text-teal-400 transition-all">
+                  <li
+                    class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                  >
+                    JavaScript
+                  </li>
+                  <li
+                    class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                  >
+                    React
+                  </li>
+                  <li
+                    class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                  >
+                    TailwindCss
+                  </li>
+                  <li
+                    class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                  >
+                    Php
+                  </li>
+                  <li
+                    class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                  >
+                    MySql
+                  </li>
+                  <li
+                    class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                  >
+                    Html/Css
+                  </li>
+                  <li
+                    class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                  >
+                    MongoDb
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://eduazn.com/">
+          <div
+            class="group grid md:grid-cols-4 gap-2 md:hover:bg-indigo-400/[.06] md:px-4 py-2 rounded-md transition-all"
+          >
+            <p class="transition-all text-gray-400 font-semibold text-sm py-2">
+              2020 - 2024
+            </p>
+            <div class="grid col-span-3 gap-3">
+              <h2
+                class="relative flex flex-wrap items-center gap-1 font-semibold text-lg group-hover:text-teal-400 transition-all"
+              >
+                <span class="flex items-center gap-1"
+                  >Senior FullStack Developer
+                  <span
+                    class="inline-block bg-white w-[4px] h-[4px] rounded-full group-hover:bg-teal-400 transition-all"
+                  ></span
+                ></span>
+
+                <span> Eduazn </span>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-30"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" /></svg
+                ></span>
+              </h2>
+              <p class="transition-all text-gray-400 font-bold text-sm">
+                Build and maintain critical components and functions used to
+                construct Eduazn's frontend and backend. Work closely with the
+                CEO to actualize and implement all of the company ideas and
+                advocated for best practices in web accessibility.
+              </p>
+              <ul class="flex">
+                <li class="lg:mr-7">
+                  <a
+                    href="https://stif.netlify.app"
+                    class="flex items-center gap-1 text-gray-400"
+                  >
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-link"
+                      >
+                        <path
+                          d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                        />
+                        <path
+                          d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                        /></svg></span
+                    ><span class="font-semibold text-gray-300"
+                      >Stif.com</span
+                    ></a
+                  >
+                </li>
+                <li class="lg:mr-7">
+                  <a
+                    href="https://stif.netlify.app"
+                    class="flex items-center gap-1 text-gray-400"
+                  >
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-link"
+                      >
+                        <path
+                          d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                        />
+                        <path
+                          d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                        /></svg></span
+                    ><span class="font-semibold text-gray-300"
+                      >Stif.com</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://stif.netlify.app"
+                    class="flex items-center gap-1 text-gray-400"
+                  >
+                    <span
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-link"
+                      >
+                        <path
+                          d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                        />
+                        <path
+                          d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                        /></svg></span
+                    ><span class="font-semibold text-gray-300"
+                      >Stif.com</span
+                    ></a
+                  >
+                </li>
+              </ul>
+              <ul class="flex flex-wrap gap-2 text-teal-400 transition-all">
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  JavaScript
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Php
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  MySql
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Html/Css
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="group mt-8">
+            <h2 class="relative flex text-gray-300 group-hover:text-teal-400">
+              <span class="transition-all text-lg font-bold"
+                >View Full Resume</span
+              >
+              <span class="transition-all">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up-right pt-2 group-hover:absolute bottom-2 group-hover:pl-2"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </h2>
+          </div>
+        </a>
+      </section>
+
+      <section id="project" class="scroll-mt-20 mb-20 grid gap-6 lg:gap-3">
+        <div
+          class="sticky top-0 z-20 -mx-6 mb-4 bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0"
+        >
+          <h1 class="lg:sr-only text-gray-300 font-bold">PROJECTS</h1>
+        </div>
+        <a href="https://eduazn.com/">
+          <div
+            class="group flex flex-col-reverse md:grid md:grid-cols-4 gap-4 md:hover:bg-slate-400/[.06] md:px-4 py-2 rounded-md transition-all"
+          >
+            <p class="transition-all text-gray-400 font-semibold text-sm py-2">
+              <img
+                src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="w-44 md:w-full rounded-xl"
+                alt=""
+              />
+            </p>
+            <div class="grid col-span-3 gap-3">
+              <h2
+                class="relative flex flex-wrap items-center gap-1 font-semibold text-lg group-hover:text-teal-400 transition-all"
+              >
+                <span class="flex">Senior FullStack Developer</span>
+                <span
+                  class="inline-block bg-white w-[4px] h-[4px] rounded-full group-hover:bg-teal-400 transition-all"
+                ></span>
+                <span>Eduazn</span>
+                <span class="transition-all">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-30"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </span>
+              </h2>
+              <p class="transition-all text-gray-400 font-bold text-sm">
+                Build and maintain critical components and functions used to
+                construct Eduazn's frontend and backend. Work closely with the
+                CEO to actualize and implement all of the company ideas and
+                advocated for best practices in web accessibility.
+              </p>
+              <ul class="flex flex-wrap gap-2 text-teal-400 transition-all">
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  JavaScript
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Php
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  MySql
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Html/Css
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+        <a href="https://eduazn.com/">
+          <div
+            class="group flex flex-col-reverse md:grid md:grid-cols-4 gap-4 md:hover:bg-slate-400/[.06] md:px-4 py-2 rounded-md transition-all"
+          >
+            <p class="transition-all text-gray-400 font-semibold text-sm py-2">
+              <img
+                src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="w-44 md:w-full rounded-xl"
+                alt=""
+              />
+            </p>
+            <div class="grid col-span-3 gap-3">
+              <h2
+                class="relative flex flex-wrap items-center gap-1 font-semibold text-lg group-hover:text-teal-400 transition-all"
+              >
+                <span class="flex">Senior FullStack Developer</span>
+                <span
+                  class="inline-block bg-white w-[4px] h-[4px] rounded-full group-hover:bg-teal-400 transition-all"
+                ></span>
+                <span>Eduazn</span>
+                <span class="transition-all">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-30"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </span>
+              </h2>
+              <p class="transition-all text-gray-400 font-bold text-sm">
+                Build and maintain critical components and functions used to
+                construct Eduazn's frontend and backend. Work closely with the
+                CEO to actualize and implement all of the company ideas and
+                advocated for best practices in web accessibility.
+              </p>
+              <ul class="flex flex-wrap gap-2 text-teal-400 transition-all">
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  JavaScript
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Php
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  MySql
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Html/Css
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+        <a href="https://eduazn.com/">
+          <div
+            class="group flex flex-col-reverse md:grid  md:grid-cols-4 gap-4 md:hover:bg-slate-400/[.06] md:px-4 py-2 rounded-md transition-all"
+          >
+            <p class="transition-all text-gray-400 font-semibold text-sm py-2">
+              <img
+                src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="w-44 md:w-full rounded-xl opacity-50"
+                alt=""
+              />
+            </p>
+            <div class="grid col-span-3 gap-3">
+              <h2
+                class="relative flex flex-wrap items-center gap-1 font-semibold text-lg group-hover:text-teal-400 transition-all"
+              >
+                <span class="flex">Senior FullStack Developer</span>
+                <span
+                  class="inline-block bg-white w-[4px] h-[4px] rounded-full group-hover:bg-teal-400 transition-all"
+                ></span>
+                <span>Eduazn</span>
+                <span class="transition-all">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-30"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </span>
+              </h2>
+              <p class="transition-all text-gray-400 font-bold text-sm">
+                Build and maintain critical components and functions used to
+                construct Eduazn's frontend and backend. Work closely with the
+                CEO to actualize and implement all of the company ideas and
+                advocated for best practices in web accessibility.
+              </p>
+              <ul class="flex flex-wrap gap-2 text-teal-400 transition-all">
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  JavaScript
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Php
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  MySql
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Html/Css
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+        <a href="https://eduazn.com/">
+          <div
+            class="group flex flex-col-reverse md:grid md:grid-cols-4 gap-4 md:hover:bg-slate-400/[.06] md:px-4 py-2 rounded-md transition-all"
+          >
+            <p class="transition-all text-gray-400 font-semibold text-sm py-2">
+              <img
+                src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="w-44 md:w-full rounded-xl opacity-20"
+                alt=""
+              />
+            </p>
+            <div class="grid col-span-3 gap-3">
+              <h2
+                class="relative flex flex-wrap items-center gap-1 font-semibold text-lg group-hover:text-teal-400 transition-all"
+              >
+                <span class="flex">Senior FullStack Developer</span>
+                <span
+                  class="inline-block bg-white w-[4px] h-[4px] rounded-full group-hover:bg-teal-400 transition-all"
+                ></span>
+                <span>Eduazn</span>
+                <span class="transition-all">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right pt-1 group-hover:pl-1 group-hover:absolute bottom-1 right-30"
+                  >
+                    <path d="M7 7h10v10" />
+                    <path d="M7 17 17 7" />
+                  </svg>
+                </span>
+              </h2>
+              <p class="transition-all text-gray-400 font-bold text-sm">
+                Build and maintain critical components and functions used to
+                construct Eduazn's frontend and backend. Work closely with the
+                CEO to actualize and implement all of the company ideas and
+                advocated for best practices in web accessibility.
+              </p>
+              <ul class="flex flex-wrap gap-2 text-teal-400 transition-all">
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  JavaScript
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Php
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  MySql
+                </li>
+                <li
+                  class="bg-teal-950/[.6] rounded-full px-4 pb-[0.3rem] text-sm font-bold"
+                >
+                  Html/Css
+                </li>
+              </ul>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="group mt-8">
+            <h2 class="relative flex text-gray-300 group-hover:text-teal-400">
+              <span class="transition-all text-lg font-bold"
+                >View Full Project Archive</span
+              >
+              <span class="transition-all">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-right pt-2 group-hover:absolute right-[18.5rem] group-hover:pl-2"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </span>
+            </h2>
+          </div>
+        </a>
+      </section>
+    </main>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
