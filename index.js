@@ -2,6 +2,7 @@ console.log(window.innerWidth);
 
 const ANCHOR_TAGS = document.querySelectorAll(".experienceAnchor");
 const HEADING_ANCHOR = document.querySelectorAll(".h2Anchor");
+const MY_INTRO = document.getElementById("Myintro");
 
 if (window.innerWidth < 768) {
   ANCHOR_TAGS.forEach((item) => {
@@ -26,3 +27,21 @@ if (window.innerWidth < 768) {
     }
   });
 }
+
+const InfoArr = [
+  "Hello Dear",
+  "You Are Welcome",
+  "I Am Marius Nwokolo",
+  "From Enugu State",
+];
+
+let i = 0;
+
+setInterval(() => {
+  MY_INTRO.innerHTML = InfoArr[i];
+  i++;
+
+  if (i >= InfoArr.length) {
+    i = 0;
+  }
+}, 2000);
