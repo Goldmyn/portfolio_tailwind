@@ -44,4 +44,4 @@ setInterval(() => {
   if (i >= InfoArr.length) {
     i = 0;
   }
-}, 2000);
+}, 3000);
